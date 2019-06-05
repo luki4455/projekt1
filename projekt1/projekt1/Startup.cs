@@ -27,7 +27,7 @@ namespace projekt1
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("http://projekt1aws-env.nswru48zu3.eu-central-1.elasticbeanstalk.com/");
+                await context.Response.WriteAsync("Lukasz Graczyk grupa 4 (azure) aws: http://projekt1aws-env.nswru48zu3.eu-central-1.elasticbeanstalk.com/");
             });
         }
     }
